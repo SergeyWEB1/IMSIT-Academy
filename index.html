@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="theme-color" content="#ffffff">
+    <meta name="описание" content="Интерактивный сайт Академии ИМСИТ">
+    <title>Академия ИМСИТ</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+
+<!--header создание шапки сайта-->
+
+<header class="header" id="header">
+    <div class="container">
+        <div class="header__inner">
+            <div class="header__logo">
+                <img src="images/logo.png" alt="">
+            </div>
+            <nav class="nav" id="nav">
+                <a class="nav__link" href="#" data-scroll="#features">Особенности</a>
+                <a class="nav__link" href="#" data-scroll="#team">Руководство</a>
+                <a class="nav__link" href="#" data-scroll="#works">Галлерея</a>
+                <a class="nav__link" href="#" data-scroll="#reviews">Отзывы</a>
+            </nav>
+
+            <button class="burger" type="button" id="navToggle">
+                <span class="burger__item"></span>
+            </button>
+
+        </div>
+    </div>
+</header>
+ 
+<!--intro создание вступительного блока-->
+
+<div class="intro" id="intro">
+    <div class="container">
+        <div class="intro__inner">
+            <h1 class="intro__title">"Академия маркетинга и социально-информационных технологий-ИМСИТ"</h1>
+            <h2 class="intro__subtitle">Негосударственное аккредитованное некоммерческое частное образовательное 
+                учреждение высшего образования</h2>
+                <a class="btn btn--red" href="https://www.imsit.ru/ru/">Узнать больше</a>
+        </div>
+    </div>
+</div>
+
+<!--features создание инф блока академии-->
+
+<div class="container" id="features">
+    <div class="features">
+        <div class="features__item">
+            <img class="features__icon" src="images/features/2.png" alt="">
+            <h4 class="features__title">Направления</h4>
+            <div class="features__text">На 5 факультетах обучается свыше 5000 студентов, которые получают качественное
+                 высшее профессиональное образование по одной из 33 специальностей и направлений, обучаясь по очной, 
+                 заочной или очно-заочной формам обучения. </div>
+        </div>
+
+        <div class="features__item">
+            <img class="features__icon" src="images/features/1.png" alt="">
+            <h4 class="features__title">История</h4>
+            <div class="features__text">Академия создана в 1994 году для удовлетворения растущих потребностей рыночной 
+                экономики России в специалистах высокой квалификации. Вместе с соратниками вуз основал доктор исторических наук, 
+                профессор, заслуженный деятель науки Кубани С.Н. Якаев. За 20 лет Академия стала одним из ведущих вузов на 
+                Кубани – крупным образовательным, научным и культурным центром. </div>
+        </div>
+
+        <div class="features__item">
+            <img class="features__icon" src="images/features/3.png" alt="">
+            <h4 class="features__title">Образование</h4>
+            <div class="features__text">Мы готовим кадры по востребованным в регионе образовательным программам 
+                высшего и среднего профессионального образования. В двух институтах и академическом колледже академии 
+                реализуется 20 основных профессиональных образовательных программ высшего образования и 15 программ
+                среднего профессионального образования. </div>
+        </div>
+
+        <div class="features__item">
+            <img class="features__icon" src="images/features/4.png" alt="">
+            <h4 class="features__title">Репутация</h4>
+            <div class="features__text">Академия стала дипломантом премии Правительства РФ в области качества, лауреатом 
+                конкурса Минобрнауки РФ «Внутривузовские системы обеспечения качества подготовки специалистов», обладателем 
+                премии Содружества Независимых Государств за достижения в области качества образовательных услуг, дважды 
+                лауреат премии Администрации Краснодарского края в области качества. </div>
+        </div>
+
+        <div class="features__item">
+            <img class="features__icon" src="images/features/5.png" alt="">
+            <h4 class="features__title">Общение</h4>
+            <div class="features__text">Студенческий возраст характеризуется именно стремлением самостоятельно
+                 и активно выбирать тот или иной жизненный стиль и идеал. Таким образом, вузовское обучение является мощным 
+                 фактором социализации личности студента, этот процесс осуществляется в ходе самой жизнедеятельности 
+                 студентов и преподавателей. Мощное социализирующее и воспитательное воздействие на личность студента оказывает 
+                 сама студенческая среда, в которую входит молодой человек. </div>
+        </div>
+
+        <div class="features__item">
+            <img class="features__icon" src="images/features/6.png" alt="">
+            <h4 class="features__title">Коллектив</h4>
+            <div class="features__text">В академии сформирован творческий, целеустремленный научно-педагогический 
+                коллектив, владеющий современными инновационными технологиями, что позволяет нам готовить 
+                конкурентоспособных специалистов для современной рыночной экономики. </div>
+        </div>
+
+    </div>     
+    
+</div>
+
+<!--arrow-->
+
+
+
+<!--works создание блока галлереи-->
+
+<div class="works" id="works">
+    <div class="works__item">
+        <img class="works__icon" src="images/gallery/1.jpg" alt="">
+        <div class="works__content">
+            <div class="works__title">Не стыдись учиться в зрелом возрасте: лучше научиться поздно, чем никогда.</div>
+        </div>
+    </div>
+
+    <div class="works__item">
+        <img class="works__icon" src="images/gallery/2.jpg" alt="">
+        <div class="works__content">
+            <div class="works__title">Ни искусство, ни мудрость не могут быть достигнуты, если им не учиться.</div>
+        </div>
+    </div>
+
+    <div class="works__item">
+        <img class="works__icon" src="images/gallery/3.jpg" alt="">
+        <div class="works__content">
+            <div class="works__title">Только самые мудрые и самые глупые не поддаются обучению.</div>
+        </div>
+    </div>
+
+    <div class="works__item">
+        <img class="works__icon" src="images/gallery/4.jpg" alt="">
+        <div class="works__content">
+            <div class="works__title">Учение имеет лишь одно назначение — отыскание утраченной природы человека.</div>
+        </div>
+    </div>
+
+    <div class="works__item">
+        <img class="works__icon" src="images/gallery/5.jpg" alt="">
+        <div class="works__content">
+            <div class="works__title">Надо много учиться, чтобы осознать, что знаешь мало.</div>
+        </div>
+    </div>
+
+    <div class="works__item">
+        <img class="works__icon" src="images/gallery/6.jpg" alt="">
+        <div class="works__content">
+            <div class="works__title">Тот, кто не желает учиться, — никогда не станет настоящим человеком.</div>
+        </div>
+    </div>
+
+    <div class="works__item">
+        <img class="works__icon" src="images/gallery/7.jpg" alt="">
+        <div class="works__content">
+            <div class="works__title">Ученикам, чтобы преуспеть, надо догонять тех, кто впереди, и не ждать тех, кто позади.</div>
+        </div>
+    </div>
+
+    <div class="works__item">
+        <img class="works__icon" src="images/gallery/8.jpg" alt="">
+        <div class="works__content">
+            <div class="works__title">Чему бы ты ни учился, ты учишься для себя.</div>
+        </div>
+    </div>
+
+</div>
+
+<!--team создание блока руководстваакадемии-->
+
+<div class="team" id="team">
+    <div class="container">
+        <div class="team__inner">
+            <div class="team__item">
+                <img class="team__photo" src="images/team/1.jpg" alt="">
+                <div class="team__name">Косяков Владимир Анатольевич</div>
+                <div class="team__prof">Президент</div>
+            </div>
+
+            <div class="team__item">
+                <img class="team__photo" src="images/team/02.jpg" alt="">
+                <div class="team__name">Агабекян Раиса Левоновна</div>
+                <div class="team__prof">Ректор</div>
+            </div>
+
+            <div class="team__item">
+                <img class="team__photo" src="images/team/03.jpg" alt="">
+                <div class="team__name">Климовец Ольга Валентиновна</div>
+                <div class="team__prof">Первый проректор</div>
+            </div>
+
+            <div class="team__item">
+                <img class="team__photo" src="images/team/04.jpg" alt="">
+                <div class="team__name">Павелко Надежда Николаевна</div>
+                <div class="team__prof">Проректор по научной работе и нормативно-методической деятельности</div>
+            </div>
+
+            <div class="team__item">
+                <img class="team__photo" src="images/team/05.jpg" alt="">
+                <div class="team__name">Хамидов Нуради Нурадиевич</div>
+                <div class="team__prof">Проректор по развитию</div>
+            </div>
+
+            <div class="team__item">
+                <img class="team__photo" src="images/team/06.jpg" alt="">
+                <div class="team__name">Баум Ирина Дмитриевна</div>
+                <div class="team__prof">Проректор по маркетингу</div>
+            </div>
+
+            <div class="team__item">
+                <img class="team__photo" src="images/team/07.jpg" alt="">
+                <div class="team__name">Севрюгина Надежда Ивановна</div>
+                <div class="team__prof">Проректор по учебной работе</div>
+            </div>
+
+            <div class="team__item">
+                <img class="team__photo" src="images/team/08.jpg" alt="">
+                <div class="team__name">Писаренко Кристина Валерьевна</div>
+                <div class="team__prof">Проректор по качеству образования</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--reviews-->
+
+<div class="reviews" id="reviews">
+    <div class="">
+        <div class="reviews__slider" id="reviewsSlider">
+            <div>
+                <div class="reviews__item">
+                    <div class="reviews__photo">
+                    <img class="reviews__image" src="images/reviews.jpg" alt=""></div>
+                    <div class="reviews__content">Я выпускница Академии ИМСИТ. Отличный вуз для тех, кто хочет получить 
+                    качественные и современные знания! Полностью доброжелательный коллектив, начиная от администрации
+                    и до преподавателей: всегда ответят на вопросы и помогут решить проблему.</div>
+                </div>
+            </div>
+
+        <div>
+            <div class="reviews__item">
+                <div class="reviews__photo">
+                        <img class="reviews__image" src="images/reviews.jpg" alt=""></div>
+                    <div class="reviews__content">Учусь в ИМСИТЕ заочно уже 4 год. Если есть какие-то вопросы или что-то не 
+                    понятно, всегда можно обратиться в деканат и к преподавателю, всё объяснят, без поддержки не оставят. 
+                    Очень хорошо была организована дистанционная учёба во время карантина. Выбором учебного заведения довольна.</div>
+                </div>
+            </div>
+            <div>
+                <div class="reviews__item">
+                    <div class="reviews__photo">
+                            <img class="reviews__image" src="images/reviews.jpg" alt=""></div>
+                        <div class="reviews__content">Прекрасные преподаватели, хороший университет, в плане пнешнего вида
+                             - все новое, чистое, аккуратное, отношение к студентам очень уважительное.</div>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+
+<!--footer создание нижней части сайта-->
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <div class="footer__item">
+                <h4 class="footer__title">расположение</h4>
+                <div class="footer__address">
+                    <a class="address__google" href="https://www.google.com/maps/place/%D0%97%D0%B8%D0%BF%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F,+5,+%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%B4%D0%B0%D1%80,+%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%B4%D0%B0%D1%80%D1%81%D0%BA%D0%B8%D0%B9+%D0%BA%D1%80%D0%B0%D0%B9,+350072/@45.0670399,38.9977696,17z/data=!3m1!4b1!4m5!3m4!1s0x40f0459891bf47d9:0xd038e977a7c66404!8m2!3d45.0670399!4d38.9977696">г. Краснодар, ул. Зиповская 5</a>
+                </div> 
+            </div>
+
+            <div class="footer__item">
+                <h4 class="footer__title">контакты</h4>
+                <div class="social">
+                    <a class="social__item" href="https://t.me/academia_imsit">
+                        <img src="images/social/telegram-svgrepo-com.svg" alt="" class="social__icon">
+                    </a>
+                    <a class="social__item" href="mailto:info-imsit@mail.ru">
+                        <img src="images/social/email-svgrepo-com.svg" alt="" class="social__icon">
+                    </a>
+                    <a class="social__item" href="https://vk.com/academia_imsit">
+                        <img src="images/social/vk-1-logo-svgrepo-com.svg" alt="" class="social__icon">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--copyright-->
+
+    <div class="copyright">
+        <div class="container"></div>
+            <div class="copyright__text">
+                <div>Copyright © 2005-2022 ИМСИТ</div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!--Javascript-->
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html> 
